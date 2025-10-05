@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+  background: linear-gradient(135deg, #6a0dad, #00bfff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  position: relative;
+}
+
+#particle-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.hub-container {
+  text-align: center;
+  background: rgba(0,0,0,0.4);
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0,255,150,0.3);
+}
+
+.logo {
+  font-size: 3rem;
+  margin-bottom: 40px;
+  text-shadow: 0 0 10px #00ff99, 0 0 20px #00ff99, 0 0 30px #00ff99;
+}
+
+.hub-buttons button {
+  display: block;
+  width: 80%;
+  max-width: 250px;
+  margin: 15px auto;
+  padding: 15px 20px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  background: #ff8c00;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.hub-buttons button:hover {
+  background: #ffa733;
+  transform: scale(1.05);
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+

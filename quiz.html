@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz do Micael</title>
+  <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+  <canvas id="particle-canvas"></canvas>
+
+  <div class="quiz-container" id="quiz-screen">
+    <button id="back-hub">⬅️ Voltar ao Hub</button>
+
+    <div id="quiz-header">
+      <h2 id="category-title">Categoria: </h2>
+      <div id="level-xp">Nível: 1 | XP: 0</div>
+      <div id="coins">💰 Moedas: 0</div>
+      <div id="timer">⏱️ 10</div>
+      <div class="progress-bar">
+        <div id="progress-fill"></div>
+      </div>
+    </div>
+
+    <div id="question"></div>
+    <div id="answer-buttons"></div>
+  </div>
+
+  <audio id="correct-sound" src="sounds/correct.mp3"></audio>
+  <audio id="wrong-sound" src="sounds/wrong.mp3"></audio>
+  <audio id="bg-music" src="sounds/background.mp3" loop></audio>
+
+  <script src="quiz.js"></script>
+</body>
+</html>

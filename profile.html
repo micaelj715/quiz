@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil do Jogador</title>
+  <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+  <div class="profile-container">
+    <h1>Perfil do Jogador</h1>
+    
+    <div class="avatar-section">
+      <div id="avatar" class="avatar">🙂</div>
+      <button id="change-avatar">🎨 Trocar Avatar</button>
+    </div>
+    
+    <div class="stats-section">
+      <h2>Estatísticas</h2>
+      <p>Total de partidas: <span id="total-games">0</span></p>
+      <p>Maior pontuação: <span id="highscore">0</span></p>
+      <p>Taxa de acerto: <span id="accuracy">0%</span></p>
+      <p>💰 Moedas: <span id="coins">0</span></p>
+      <p>Nível: <span id="level">1</span> | XP: <span id="xp">0</span></p>
+    </div>
+    
+    <div class="achievements-section">
+      <h2>Conquistas</h2>
+      <ul id="achievements"></ul>
+    </div>
+    
+    <button id="back-btn">⬅️ Voltar ao Hub</button>
+  </div>
+
+  <script src="profile.js"></script>
+</body>
+</html>
+

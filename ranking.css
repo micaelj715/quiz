@@ -9,39 +9,31 @@ body {
   color: white;
 }
 
-.categories-container {
-  background: rgba(0,0,0,0.5);
+.ranking-container {
+  background: #1a1a1a;
   padding: 30px 20px;
-  border-radius: 20px;
+  border-radius: 15px;
   text-align: center;
   width: 90%;
   max-width: 400px;
+  box-shadow: 0 0 20px rgba(0,255,150,0.2);
 }
 
-.category-buttons button {
-  display: block;
-  width: 80%;
-  margin: 10px auto;
-  padding: 12px;
-  font-size: 1.2rem;
+ol { text-align: left; }
+
+button {
+  padding: 10px 20px;
   border: none;
-  border-radius: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
   background: #ff8c00;
   color: white;
-  cursor: pointer;
+  margin-top: 20px;
   transition: all 0.2s;
 }
 
-.category-buttons button:hover {
+button:hover {
   background: #ffa733;
   transform: scale(1.05);
-}
-
-#back-btn {
-  margin-top: 20px;
-  background: #00ff99;
-}
-
-#back-btn:hover {
-  background: #33ffbb;
 }

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Configurações</title>
+  <link rel="stylesheet" href="settings.css">
+</head>
+<body>
+  <div class="settings-container">
+    <h1>Configurações 🎛️</h1>
+
+    <div class="option">
+      <label for="sound-toggle">Som:</label>
+      <input type="checkbox" id="sound-toggle" checked>
+    </div>
+
+    <div class="option">
+      <label for="theme-select">Tema:</label>
+      <select id="theme-select">
+        <option value="default">Padrão</option>
+        <option value="dark">Escuro</option>
+        <option value="light">Claro</option>
+      </select>
+    </div>
+
+    <button id="reset-data">🔄 Resetar Progresso</button>
+    <button id="back-btn">⬅️ Voltar ao Hub</button>
+  </div>
+
+  <script src="settings.js"></script>
+</body>
+</html>
+
